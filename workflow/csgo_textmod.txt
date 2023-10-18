@@ -1,4 +1,16 @@
-   "Cstrike_TitlesTXT_Bomb_Defused"                    "炸弹成功地被拆除了"
+// Text Color Mod
+// Orel 和 spddl 的原始想法，Maxim的原始文件，柠檬味雪碧的原始中文翻译。
+// 自 CS2 版起，由 何仙姑 （https://space.bilibili.com/21249030）重新编写和编辑。
+// 更新地址 https://cs.gkd.plus/textmod?mod
+
+"lang"
+{
+"Language"	"schinese"
+"Tokens"
+{
+{
+    // Alerts
+    "Cstrike_TitlesTXT_Bomb_Defused"                    "炸弹成功地被拆除了"
     "Cstrike_TitlesTXT_Bomb_Planted"                    "炸弹已被安放\n离引爆还剩 %s1 秒"
     "SFUI_Notice_YouDroppedWeapon"                      "您已扔掉 %s1"
     "Cstrike_TitlesTXT_Got_bomb"                        "你捡起了炸弹"
@@ -6,12 +18,18 @@
     "Cstrike_TitlesTXT_Weapon_Pickup"                   "你捡起了一个 %s1"
     "SFUI_Notice_Match_Will_Pause"                      "比赛将在静止时间期间被设置为暂停"
     "SFUI_Notice_Match_Will_Pause_Technical"            "比赛将在静止时间期间，为了技术暂停而被设置为暂停"
+
+    // Space prefix due to a bug (?) that otherwise prevents colors from working
     "SFUI_Notice_CTs_Clinched_Match"                    " ★ CT以最多的胜利钳制了比赛"
     "SFUI_Notice_Ts_Clinched_Match"                     " ★ T以最多的胜利钳制了比赛"
     "hostagerescuetime"                                 " CT通过找到一名人质获得了更多的时间"
     "SFUI_Notice_All_Players_Connected"                 " 所有玩家都已连接。比赛将在 %s1 秒后开始"
+
+    // Graffiti menu
     "CSGO_Spray_Auto_Toggle"                            "快速涂鸦"
     "CSGO_No_Sprays"                                    "你没有涂鸦"
+
+    // Shorter names
     "SFUI_WPNHUD_HE_Grenade"                            "雷"
     "SFUI_WPNHUD_HEGrenade"                             "雷"
     "SFUI_WPNHUD_Molotov"                               "火"
@@ -20,19 +38,25 @@
     "SFUI_WPNHUD_Smoke_Grenade"                         "烟"
     "SFUI_WPNHUD_SmokeGrenade"                          "烟"
     "SFUI_WPNHUD_Decoy"                                 "诱饵弹"
+
     "Cstrike_game_join_spectators"                      " %s1 加入了观察者"
     "Cstrike_game_join_terrorist"                       " %s1 加入了T队伍"
     "Cstrike_game_join_ct"                              " %s1 加入了CT队伍"
     "Cstrike_TitlesTXT_Game_teammate_attack"            " %s1 攻击了队友"
     "csgo_player_left_game"                             " %s1 离开了游戏 (%s2)"
+
     "Cstrike_TitlesTXT_Defusing_Bomb"                   "➤ 正在拆除炸弹"
     "Cstrike_TitlesTXT_Planting_Bomb"                   "➤ 正在安放炸弹"
+
+    // Grenade radio
     "SFUI_TitlesTXT_Fire_in_the_hole"                   "• 雷"
     "SFUI_TitlesTXT_Molotov_in_the_hole"                "• 火"
     "SFUI_TitlesTXT_Incendiary_in_the_hole"             "• 火"
     "SFUI_TitlesTXT_Flashbang_in_the_hole"              "• 闪"
     "SFUI_TitlesTXT_Smoke_in_the_hole"                  "• 烟"
     "SFUI_TitlesTXT_Decoy_in_the_hole"                  "• 诱饵弹"
+
+    // Chat messages
     "Game_radio"                                        "%s1: %s2"
     "Game_radio_location"                               "%s1 [%s2]: %s3"
     "Cstrike_Chat_CT_Loc"                               "%s1 [%s3] (Team): %s2"
@@ -43,6 +67,8 @@
     "Cstrike_Chat_T"                                    "%s1 (Team): %s2"
     "Cstrike_Chat_All"                                  "%s1: %s2"
     "Cstrike_Chat_AllDead"                              "%s1 [Dead]: %s2"
+
+    // Player awards
     "Player_Cash_Award_Bomb_Defused"                    " +$%s1 • 拆除 C4 "
     "Player_Cash_Award_Bomb_Planted"                    " +$%s1 • 安放 C4"
     "Player_Cash_Award_Get_Killed"                      " +$%s1 • 被消灭"
@@ -51,9 +77,12 @@
     "Player_Cash_Award_Killed_Enemy"                    " +$%s1 • 使用 %s2 解决敌人"
     "Player_Cash_Award_Rescued_Hostage"                 " +$%s1 • 营救人质"
     "Player_Cash_Award_Respawn"                         " +$%s1 • 重生"
+
     "Player_Cash_Award_Damage_Hostage"                  " -$%s1 • 误伤人质" 
     "Player_Cash_Award_Kill_Hostage"                    " -$%s1 • 误杀人质"
     "Player_Cash_Award_Kill_Teammate"                   " -$%s1 • 击杀队友"
+
+    // Team awards
     "Team_Cash_Award_Elim_Bomb"                         " +$%s1 • 整支队伍的奖励"
     "Team_Cash_Award_Elim_Hostage"                      " +$%s1 • 整支队伍的奖励"
     "Team_Cash_Award_T_Win_Bomb"                        " +$%s1 • 整支队伍的奖励 - 引爆炸弹"
@@ -70,19 +99,46 @@
     "Team_Cash_Award_Survive_GuardianMode_Wave"         " +$%s1 • 幸存"
     "Team_Cash_Award_Win_Time"                          " +$%s1 • 耗尽时间"
     "Team_Cash_Award_Custom"                            " +$%s1 • %s2"
+
     "Team_Cash_Award_Loser_Bonus_Neg"                   " -$%s1 • 输掉回合"
     "Team_Cash_Award_No_Income"                         " $0 • 时间耗尽"
     "Team_Cash_Award_No_Income_Suicide"                 " $0 • 自杀"
+
+    // Deathmatch points
     "Player_Point_Award_Assist_Enemy"                   " +%s1 • 协助 %s2"
     "Player_Point_Award_Assist_Enemy_Plural"            " +%s1 • 协助 %s2"
     "Player_Point_Award_Killed_Enemy"                   " +%s1 • 使用 %s2"
     "Player_Point_Award_Killed_Enemy_Plural"            " +%s1 • 使用 %s2"
     "Player_Point_Award_Killed_Enemy_NoWeapon"          " +%s1 • 击杀"
     "Player_Point_Award_Killed_Enemy_NoWeapon_Plural"   " +%s1 • 击杀"
+
+    // Suicides
     "Player_Cash_Award_ExplainSuicide_EnemyGotCash"     " 因为 %s1 的自杀获得了补偿"
     "Player_Cash_Award_ExplainSuicide_Spectators"       " %s3 因为%s1 获得了 +$%s2  "
     "Player_Cash_Award_ExplainSuicide_TeammateGotCash"  " %s3 因为 %s1 自杀获得 +$%s2 "
     "Player_Cash_Award_ExplainSuicide_YouGotCash"       " +$%s2 • 因为 %s1"
+
+    // Short-hand income
     "Notice_Bonus_Enemy_Team"                           " 敌方获得 +$%s1 人数补偿"
     "Notice_Bonus_Shorthanded_Eligibility"              " 在 %s1 回合后获得人数补偿"
     "Notice_Bonus_Shorthanded_Eligibility_Single"       " 在 1 回合后获得人数补偿"
+
+    // C01 #ffffff  - Normal, white
+    // C02 #ff0000  - "Use old colors", dark red
+    // C03 #ba81f0  - Player name, team color (CT - #a2c6ff, T - #ffdf93)
+    // C04 #40ff40  - Location, bright green
+    // C05 #bfff90  - Achievement, light green
+    // C06 #a2ff47  - Award, bright green
+    // C07 #ff4040  - Penalty, light red
+    // C08 #c5cad0  - Silver
+    // C09 #ede47a (tab character) - Gold
+
+    // C10 #b0c3d9 (line feed) - Common?
+    // C11 #5e98d9  - Uncommon, very light blue
+    // C12 #4b69ff  - Rare, darker blue
+    // C13 #8847ff (carriage return) - Mythical?
+    // C14 #d32ce6  - Legendary, purple
+    // C15 #eb4b4b  - Ancient, lighter red
+    // C16 #e4ae39  - Immortal, orange
+}
+}

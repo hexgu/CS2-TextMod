@@ -17,7 +17,7 @@ Text Color Mod
 
 ## 安装方式
 
-1. [单击此链接下载文件](https://raw.githubusercontent.com/xPaw/CS2/main/csgo_textmod.txt)
+1. [单击此链接下载文件](https://cs.gkd.plus/textmod/install.html?github)
 2. 将文件解压，找到 `csgo_schinese.txt` 将其放入此文件夹中： `Steam\SteamApps\Common\Counter-Strike Global Offensive\game\csgo\resource`
 3. 将 `-language schinese` 添加到启动项
 

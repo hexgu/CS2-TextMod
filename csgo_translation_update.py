@@ -22,21 +22,21 @@ for a, b in colormod_dict.items():
     pattern = fr'"{a}"\s+"([^"]+)"'
     schinese_data = re.sub(pattern, fr'"{a}"\t"{b}"', schinese_data)
 
-# 写入开头的注释和更新时间
-current_time = datetime.now().strftime("%Y%m%d%H%M%S")  # 使用datetime类
-current_time_formatted = datetime.now().strftime("%Y-%m-%d %H:%M:%S")  # 格式化的时间
-header = f"""// Text Color Mod
-// Orel 和 spddl 的原始想法，柠檬味雪碧的原始中文翻译。
-// 自 1.0 版起，由 Maxim（MrMaxim / BananaGaming）重新编写和编辑。
-// 自 4.2 版起，由 何仙姑 （https://space.bilibili.com/21249030）重新接手中文翻译。
-// 最新版本下载地址 https://csgo.gkd.plus/textmod?mod
-// 当前版本构建时间：{current_time_formatted} ，请注意更新
-
-"""
-schinese_data = header + schinese_data
-
-# 将 "Language" "English" 改为 "Language" "schinese"
-schinese_data = re.sub(r'"Language"\s+"English"', r'"Language" "schinese"', schinese_data)
+# # 写入开头的注释和更新时间
+# current_time = datetime.now().strftime("%Y%m%d%H%M%S")  # 使用datetime类
+# current_time_formatted = datetime.now().strftime("%Y-%m-%d %H:%M:%S")  # 格式化的时间
+# header = f"""// Text Color Mod
+# // Orel 和 spddl 的原始想法，柠檬味雪碧的原始中文翻译。
+# // 自 1.0 版起，由 Maxim（MrMaxim / BananaGaming）重新编写和编辑。
+# // 自 4.2 版起，由 何仙姑 （https://space.bilibili.com/21249030）重新接手中文翻译。
+# // 最新版本下载地址 https://csgo.gkd.plus/textmod?mod
+# // 当前版本构建时间：{current_time_formatted} ，请注意更新
+#
+# """
+# schinese_data = header + schinese_data
+#
+# # 将 "Language" "English" 改为 "Language" "schinese"
+# schinese_data = re.sub(r'"Language"\s+"English"', r'"Language" "schinese"', schinese_data)
 
 # 查找无法匹配的项目
 unmatched_items = [a for a in colormod_dict if a not in schinese_data]
