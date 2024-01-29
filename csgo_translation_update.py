@@ -22,7 +22,7 @@ for a, b in colormod_dict.items():
     pattern = fr'"{a}"\s+"([^"]+)"'
     schinese_data = re.sub(pattern, fr'"{a}"\t"{b}"', schinese_data)
 
-# # 写入开头的注释和更新时间
+# # 写入开头的注释和更新时间（报错）
 # current_time = datetime.now().strftime("%Y%m%d%H%M%S")  # 使用datetime类
 # current_time_formatted = datetime.now().strftime("%Y-%m-%d %H:%M:%S")  # 格式化的时间
 # header = f"""// Text Color Mod
