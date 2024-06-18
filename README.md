@@ -10,7 +10,7 @@ Text Color Mod
 </p>
 
 > [!WARNING]
-> Text mod no longer works.
+> Text mod 不再起作用。
 ## 安装方式
 
 1. [单击此链接下载文件](https://cs.gkd.plus/textmod/install.html?github)
