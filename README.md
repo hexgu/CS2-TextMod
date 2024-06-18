@@ -1,9 +1,4 @@
 <h1 align="center">
-<sub>
-<img  src="https://i.loli.net/2020/11/27/SNhJxraRF3oeq2W.png"
-      height=8%
-      width=8%>
-</sub>
 Text Color Mod
 </h1>
 <p align="center">
@@ -14,7 +9,8 @@ Text Color Mod
 <br>
 </p>
 
-
+> [!WARNING]
+> Text mod no longer works.
 ## 安装方式
 
 1. [单击此链接下载文件](https://cs.gkd.plus/textmod/install.html?github)
